@@ -25,6 +25,6 @@ func TestServeHTTP(t *testing.T) {
 		t.Fatal(err)
 	}
 	if expected != string(actual) {
-		t.Errorf("Expected the message '%s' but got '%s'\n", expected,actual)
+		t.Errorf("EXpected the message '%s' but got '%s'\n", expected,actual)
 	}
 }
